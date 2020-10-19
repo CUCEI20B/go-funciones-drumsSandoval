@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func Burbuja(s []int64)  {
 	n := cap(s) -1
 	aux := int64(0)
@@ -19,5 +17,5 @@ func Burbuja(s []int64)  {
 func main()  {
 	s := []int64 {5,4,3,2,1}
 	Burbuja(s)
-	fmt.Println(s)
+
 }
